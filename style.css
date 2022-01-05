@@ -11,7 +11,7 @@ h1
 {
     color: orange;
 }
-section{
+.top{
     display: flex;
 }
 .half-width{
@@ -34,4 +34,31 @@ section{
 {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.mid
+{
+    display: flex;
+}
+.half
+{
+    width: 80%;
+    padding-left:10%;
+    text-align: justify;
+    padding-left: 5%;
+    padding-top: 10%;
+    padding-right: 10%;
+    margin-bottom: 150px;
+}
+.half img{
+    width: 80%;
+}
+h2{
+    font-weight: 900;
+}
+.mid
+{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+
 }
